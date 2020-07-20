@@ -1,0 +1,50 @@
+.function {
+  color: greenyellow;
+  font-size: 20px;
+  font-weight: 9;
+}
+
+.number {
+  color: white;
+  border: black;
+}
+
+.buttons {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: rgb(56, 56, 56);
+  justify-content: space-around;
+  border: none;
+  font-size: 20px;
+  margin: 5px;
+}
+
+button:active {
+  background-color: rgb(173, 173, 173);
+  color: black;
+  border: black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.clear {
+  height: 50px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 95%;
+  margin-bottom: 20px;
+}
