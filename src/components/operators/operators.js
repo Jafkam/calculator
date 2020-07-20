@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./operators.css";
 
 class Operators extends React.Component {

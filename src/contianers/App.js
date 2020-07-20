@@ -1,7 +1,7 @@
 import React from "react";
 import Operators from "../components/operators/operators";
 import "./App.css";
-// import "../components/operators/operators.css";
+
 
 class App extends React.Component {
   constructor(props) {
