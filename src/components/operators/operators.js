@@ -21,7 +21,6 @@ class Operators extends React.Component {
           className="number"
           onClick={(e) => onClick(e.target.name)}
         >
-          {" "}
           7
         </button>
         <button
